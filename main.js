@@ -3,6 +3,8 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
+document.querySelector('div#modal').className ='hidden';
+document.addEventListener('DOMContentLoaded', () => cickHeart());
 
 
 
@@ -23,3 +25,6 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
     }, 300);
   });
 }
+
+document.querySelector('div#modal').className ='hidden';
+document.addEventListener('DOMContentLoaded', () => cickHeart());
